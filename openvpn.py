@@ -11,8 +11,8 @@ dtm = pyperclip.paste()
 pattern = re.compile(r'\d+')
 re = pattern.findall(dtm)
 new_dtm = str(re[0])
-username = 'otp@zhaojiahao'
-password = 'Pzjh15877407839'+new_dtm
+username = '账号'
+password = '密码'+new_dtm
 
 def file_pass():
     f_name = "C:\\Program Files (x86)\\OpenVPN\\config\\pass.txt"
